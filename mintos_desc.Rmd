@@ -1,0 +1,16 @@
+---
+title: "Loan overview"
+output: html_notebook
+---
+
+
+
+
+```{r pkg and data}
+library(dplyr)
+library(lubridate)
+library(ggplot2)
+
+d_base <- readRDS("./dat_in/dat_mintos_full.Rds")
+```
+
